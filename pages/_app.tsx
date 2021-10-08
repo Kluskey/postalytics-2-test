@@ -13,9 +13,11 @@ function MyApp({ Component, pageProps }: AppProps) {
       else var ac = rc.exec(document.cookie)
       if (ac != null) a = ac
       if (a != null) {
-  var _bn_d = a[1]
+      // @ts-ignore
+      var _bn_d = a[1]
       ;(function () {
-    var pl = document.createElement('script')
+      // @ts-ignore
+      var pl = document.createElement('script')
       pl.type = 'text/javascript'
       pl.async = true
       pl.src =
